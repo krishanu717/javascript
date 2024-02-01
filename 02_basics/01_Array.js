@@ -28,3 +28,18 @@ console.log(myarr); // remove last push value
 console.log(myarr.includes(9)); //this use to asking question get answer as boolean type 
 console.log(myarr.indexOf(11)); // if false then print -1 or if right print that number 
 
+const newarr = myarr.join()
+console.log(newarr); // used to converts Array to Srting Datatypes
+
+console.log('A', myarr);
+const myslice = myarr.slice(1, 3) 
+/* slice start to print start to printing given start
+element stop print given margin last element  it doesn't manipulate array element*/
+console.log(myslice); 
+
+console.log('B', myarr);
+const mysplice = myarr.splice(1, 3);
+ /*splice actually manipulate the array and print instrucated element*/
+console.log(mysplice);
+ 
+console.log('C', myarr);
