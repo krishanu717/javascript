@@ -33,8 +33,8 @@ console.log(newarr); // used to converts Array to Srting Datatypes
 
 console.log('A', myarr);
 const myslice = myarr.slice(1, 3) 
-/* slice start to print start to printing given start
-element stop print given margin last element  it doesn't manipulate array element*/
+/* slice start to printing given start
+element stop print given margin of last element  it doesn't manipulate array element*/
 console.log(myslice); 
 
 console.log('B', myarr);
