@@ -37,4 +37,25 @@ const obj4 = {...obj1, ...obj2, ...obj3}
 console.log(obj3);
 
 // getting values from database 
+ const users = [
+{
+   name : "ram",
+   roll: "1"    
+},
+
+{
+   name : "rama",
+   roll: "19"
+}
+,
+{
+   name : "raghu",
+   roll: "10"
+}
+]
+ console.log(users[0].roll);
+
+ console.log(Object.keys(Fbuser));
+ console.log(Object.values(Fbuser));
+ console.log(Object.entries(Fbuser)); // how to address keys ,values, entries through singletonn process
  
